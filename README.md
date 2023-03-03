@@ -44,3 +44,5 @@ This project was built using the following technologies:
 - JavaScript
 - HTML
 - CSS
+
+Deployment Link: https://manage-bookstore-sohel473.netlify.app/
