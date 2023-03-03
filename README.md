@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Project Readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application that allows users to add books to a list and manage them. The application is built using JSON Server for the local server.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+The following are the requirements for this project:
 
-### `npm start`
+- In the form given on the right side, if you submit all the information input, it will be stored asynchronously on the local server.
+- "Book List" section should show the list of books from the server.
+- There are two tags named "All, Featured" on the right of "Book List". If you select Featured, only the 'Featured' books will be filtered. If you select All, all will be shown.
+- There is a "Search Bar" in the navigation menu. If you search there, it will search only by the book name, and the search result will be filtered in the "Book List" section. If the search bar is empty, all books will appear as normal.
+- Clicking on the Edit icon of the card item, all the information of the card will go to the "Add New Book" form on the right side. The button name will then convert from "Add Book" to "Update Book".
+- If you click on "Update Book", the book will be updated, the form will be reset, and the title before the button will be "Add Book".
+- Finally, if you click the delete button, the book will be deleted from the database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+HTML template will be provided, as well as JSON Server will be configured for the local server. The server must be used in that configuration, and the server must be running on port "9000".
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+Clone the repository to your local machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+First of all, run the server. to do that, follow the instructions below:
 
-### `npm run build`
+0. Open new terminal.
+1. Change Directory using the command `cd server`
+2. Install the dependencies using the command `npm install`.
+3. Start the application using the command `npm start`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then to run this project, follow the instructions below:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+0. Open another terminal.
+1. Install the dependencies using the command `npm install`.
+2. Start the application using the command `npm start`.
+3. Access the application by opening `http://localhost:3000` in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies
 
-### `npm run eject`
+This project was built using the following technologies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React.js
+- Redux
+- JSON Server
+- JavaScript
+- HTML
+- CSS
